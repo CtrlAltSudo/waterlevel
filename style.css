@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+img {
+    border-radius: 5%;
+    max-width: 25%;
+    height: auto;
+}
+.flex_container, .nav1, .nav2, .nav3 {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.header_container, .head .fa-solid.fa-droplet {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+ /* unvisited link */
+ a:link {
+    color: #538bcc;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #538bcc;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #86addb;
+  }
+  .fa-droplet {
+    color: #86addb;
+    font-size: 60px;
+    padding-right: 10px;
+  }

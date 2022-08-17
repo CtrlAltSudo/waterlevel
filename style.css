@@ -17,13 +17,20 @@ img {
 .header_container, .head .fa-solid.fa-droplet {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
     margin-top: 50px;
 
 }
 h1 {
     font-size: 30px;
     font-weight: 800;
+}
+h2 {
+  color: #86addb;
+  font-size: 23px;
+}
+h3 {
+  color: #86addb;
+  font-size: 23px;
 }
  /* unvisited link */
  a:link {
@@ -36,12 +43,36 @@ h1 {
     color: #538bcc;
   }
   
-  /* mouse over link */
-  a:hover {
-    color: #86addb;
-  }
   .fa-droplet {
     color: #86addb;
     font-size: 60px;
     padding-right: 10px;
   }
+  .box {
+    display: flex;
+    justify-content: center;
+
+  }
+p {
+ font-weight: 500;
+ font-size: 16px;
+ color: black;
+}
+.item1, .item2 {
+  margin-top: 70px;
+  width: 300px;
+  border-radius: 1%;
+}
+.item2 {
+  margin-left: 250px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.box, .item1, .item2 {
+    margin: auto;
+    width: 75%;
+    height: auto;
+    flex-direction: column;
+  }
+}

@@ -22,6 +22,12 @@ body {
     align-content: center;
     margin-top: 50px;
 }
+.item_h {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 h1 {
     font-size: 32px;
     font-weight: 400;
@@ -51,6 +57,19 @@ h3 {
     font-size: 60px;
     padding-right: 10px;
   }
+  .fa-faucet-drip, .fa-mug-hot, .fa-shower { 
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+ {
+  color: #ffffff;
+  font-size: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
   .box {
     display: flex;
     justify-content: center;
@@ -71,8 +90,8 @@ p {
     width: 300px;
     background-color: #6496D1;
     border-radius: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 

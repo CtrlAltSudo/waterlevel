@@ -2,12 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.image_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 50px;
-}
+
 .flex_container, .nav1, .nav2, .nav3 {
     display: flex;
     justify-content: center;
@@ -27,7 +22,25 @@ body {
   justify-content: center;
   align-content: center;
 }
+.head2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
 
+.image_container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  max-width: 860px;
+}
+img {
+  float: left;
+  margin: 5px;
+  height: 250px;
+  padding-top: 60px;
+  max-height: 250px;
+}
 h1 {
     font-size: 32px;
     font-weight: 400;
@@ -97,4 +110,8 @@ p {
   margin-right: auto;
   gap: 30px;
   }
+img {
+  width: 100px;
+  height: auto;
+}
 }

@@ -124,8 +124,7 @@ p {
   margin-right: auto;
   gap: 30px;
   }
-img {
-  width: 100px;
-  height: auto;
+.body_p {
+  width: 350px;
 }
 }
